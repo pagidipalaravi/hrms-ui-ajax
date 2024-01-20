@@ -1,0 +1,13 @@
+[{
+    "regionId": 1,
+    "regionName": "Europe"
+}, {
+    "regionId": 2,
+    "regionName": "Americas"
+}, {
+    "regionId": 3,
+    "regionName": "Asia"
+}, {
+    "regionId": 4,
+    "regionName": "Middle East and Africa"
+}]
