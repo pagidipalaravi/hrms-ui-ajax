@@ -1,8 +1,4 @@
 function main() {
-<<<<<<< Updated upstream
-    document.getElementById("tr1").innerHTML = "<td>1</td><td>Europe</td>";
-}
-=======
     let header =
         "<tr><th>Region_ID</th><th>REGION_NAME</th></tr>";
     let data = "<tr><td>1</td><td>Europe</td></tr>";
@@ -14,4 +10,3 @@ function main() {
 //TODO: use AJAX to get the data from the middleware
 
 //http://localhost:6010/regions/
->>>>>>> Stashed changes
