@@ -1,0 +1,95 @@
+[{
+    "Department_Id": 1000,
+    "Department_Name": "M.com",
+    "HOD_Id": "301",
+    "Location": "Nellore"
+    
+}, {
+    "Department_Id": 1001,
+    "Department_Name": "M.Sc(cs)",
+    "HOD_Id": "302",
+    "Location": "kadapa"
+}, {
+    "Department_Id": 1002,
+    "Department_Name": "commerce",
+    "HOD_Id": "303",
+    "Location": "vempalli"
+    }, {
+    "Department_Id": 1003,
+    "Department_Name": "Arts",
+    "HOD_Id": "304",
+    "Location": "Nellore"
+}, {
+    "Department_Id": 1004,
+    "Department_Name": "Bio_Tech",
+    "HOD_Id": "305",
+    "Location": "kurnool"
+}, {
+    "Department_Id": 1005,
+    "Department_Name": "Food_Tech",
+    "HOD_Id": "306",
+    "Location": "Hyderabad"
+}, {
+    "Department_Id": 1006,
+    "Department_Name": "Economics",
+    "HOD_Id": "307",
+    "Location": "Rayachoty"
+}, {
+    "Department_Id": 1007,
+    "Department_Name": "MCA",
+    "HOD_Id": "308",
+    "Location": "Badvel"
+}, {
+    "Department_Id": 1008,
+    "Department_Name": "Gnano_Tech",
+    "HOD_Id": "309",
+    "Location": "kadapa"
+}, {
+    "Department_Id": 1009,
+    "Department_Name": "MBA",
+    "HOD_Id": "310",
+    "Location": "Vemanapuram"
+}, {
+    "Department_Id": 1010,
+    "Department_Name": "political-science",
+    "HOD_Id": "311",
+    "Location": "warangal"
+}, {
+    "Department_Id": 1011,
+    "Department_Name": "General-science",
+    "HOD_Id": "312",
+    "Location": "mydukur"
+}, {
+    "Department_Id": 1012,
+    "Department_Name": "M.com",
+    "HOD_Id": "312",
+    "Location": "Nellore"
+}, { 
+    "Department_Id": 1013,
+    "Department_Name": "MBA",
+    "HOD_Id": "313",
+    "Location": "Nellore"
+
+}, {
+    "Department_Id": 1014,
+    "Department_Name": "M.Sc(cs)",
+    "HOD_Id": "314",
+    "Location": "kadapa"
+}, {
+    "Department_Id": 1015,
+    "Department_Name": "Stats",
+    "HOD_Id": "315",
+    "Location": "Nellore"
+}, {
+    "Department_Id": 1016,
+    "Department_Name": "M.com",
+    "HOD_Id": "316",
+    "Location": "kurnool"
+}, {
+    
+}, {
+    "Department_Id": 1017,
+    "Department_Name": "B.com",
+    "HOD_Id": "317",
+    "Location": "Nellore"
+}]
