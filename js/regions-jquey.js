@@ -5,9 +5,7 @@ function main() {
     $.getJSON("http://localhost:6010/regions/", function(response){
         regionsArray = response;
         console.log(regionsArray);
-		
 		let rows = "";
-
 		for(let i=0;i<regionsArray.length;i++){
 			let regionid = regionsArray[i].regionid;
 			let regionName = regionsArray[i].regionName;
