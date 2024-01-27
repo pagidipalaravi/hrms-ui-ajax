@@ -14,23 +14,22 @@ async function getRegions() {
     xhr.send();
     //Has to wait but javascript won't wait because javascript is Synchronous
     console.log("after send readystate " + xhr.readyState);
-
     // call back function. when the state will change, the below function will be executed.
     xhr.onreadystatechange = function () {
         console.log("onreadystatechange readystate " + xhr.readyState);
         if (xhr.readyState == 4 && xhr.status == 200) {
             console.log("readystate " + xhr.readyState);
-            const responseArray = JSON.parse(xhr.response);
-            console.log(responseArray);
+            const regionsArray = JSON.parse(xhr.response);
+            console.log(regionsArray);
             let rows = "";
-            for (let i = 0; i < responseArray.length; i++) {
-                let regionid = responseArray[i].regionid;
-                let regionName = responseArray[i].regionName;
+            for (let i = 0; i < regionsArray.length; i++) {
+                let regionid = regionsArray[i].regionid;
+                let regionName = regionsArray[i].regionName;
                 rows += "<tr><td>" + regionid + "</td><td>" + regionName + "</td></tr>";
                 //rows = rows + row;
             }
             console.log(rows);
-            document.getElementById("regions").innerHTML = "<table>" + header + "" + rows + "</table>"
+            document.getElementById("regions").innerHTML = "<table>" + header + "" + rows + "</table>";
         }
     }
 }
