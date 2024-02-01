@@ -40,4 +40,5 @@ async function getLocations() {
             }
         }
     }
+    console.log("After call back function");
 }

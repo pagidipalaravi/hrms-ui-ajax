@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Departments</title>
+    <link rel="icon" href="../images/icons/dept.jpg">
+    <script src="../js/createDepartments-ajax.js"></script>
+</head>
+
+<body>
+    <div id="message"></div>
+	<h2>Departments</h2>
+        <label for="departmentName">Department Name:</label>
+        <input type="text" id="departmentName" name="departmentName"><br>
+        <label for="managerId">Manager Id:</label>
+        <input type="number" id="managerId" name="managerId" min="100" max="999"><br>
+        <label for="locationId">Location Id:</label>
+        <input type="number" id="locationId" name="locationId" min="1000" max="9999"><br>
+        <button onclick="createDepartments();">Submit</button>
+</body>
+
+</html>
