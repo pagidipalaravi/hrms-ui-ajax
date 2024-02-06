@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CREATE EMPLOYEE</title>
+        <script src="../js/createEmployee.js"></script>
+    </head>
+    <body>
+        <h3>CREATING AN EMPLOYEE</h3>
+
+        <form>
+            
+            <label for="employeeId">EMPLOYEE ID: </label>
+            <input type="number" id="employeeId" name="employeeId"><br><br>
+
+            <label for="firstName">FIRST NAME: </label>
+            <input type="text" id="firstName" name="firstName"><br><br>
+
+            <label for="lastName">LAST NAME: </label>
+            <input type="text" id="lastName" name="lastName"><br><br>
+
+            <label for="email">EMAIL: </label>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="phoneNumber">PHONE NUMBER: </label>
+            <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
+
+            <label for="hireDate">HIRE DATE: </label>
+            <input type="date" id="hireDate" name="hireDate"><br><br>
+
+            <label for="salary">SALARY</label>
+            <input type="number" id="salary" name="salary"><br><br>
+
+            <label for="jobId">JOB ID</label>
+            <input type="text" id="jobId" name="jobId"><br><br>
+
+            <label for="commisionPct">COMMISION PCT: </label>
+            <input type="text" id="commisionPct" name="commisionPct"><br><br>
+
+            <label for="managerId">MANAGER ID: </label>
+            <input type="number" id="managerId" name="managerId"><br><br>
+
+            <label for="departmentId">DEPARTMENT ID: </label>
+            <input type="number" id="departmentId" name="departmentId"><br><br>
+
+            <button onclick="createEmployee()">SUBMIT</button>
+
+        </form> 
+        <p id="res"></p>
+
+    </body>
+</html>

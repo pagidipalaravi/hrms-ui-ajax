@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CREATING DEPARTMENT</title>
+        <script src="../js/createDepartment.js"></script>
+    </head>
+    <body>
+        <h3>Creating a Department</h3>
+        
+        <form>
+
+                <label for="departmentId">DEPARTMENT ID: </label>
+                <input type="number" id="departmentId"><br><br>
+
+                <label for="departmentName">DEPARTMENT NAME: </label>
+                <input type="text" id="departmentName"><br><br>           
+            
+                <label for="managerId">MANAGER ID: </label>
+                <input type="number" id="managerId"><br><br>
+            
+                <label for="locationId">LOCATION ID: </label>
+                <input type="number" id="locationId"><br><br>
+        </form>
+
+        <button onclick="createDepartment()">SUBMIT</button>
+        <div>
+            <p id="result"></p>
+        </div>
+    </body>
+</html>
